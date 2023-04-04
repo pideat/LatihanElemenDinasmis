@@ -1,0 +1,124 @@
+/* *********************************** */
+/* UNTUK TABLET (1000px) */
+/* *********************************** */
+@media (max-width: 1000px) {
+  header {
+    padding: 0 24px;
+  }
+
+  footer {
+    padding: 24px;
+  }
+
+  .hero h1 {
+    font-size: 120px;
+  }
+
+  .hero p {
+    font-size: 45px;
+  }
+
+  .ninja {
+    width: 230px;
+    height: 230px;
+  }
+
+  .project-image img {
+    width: 250px;
+  }
+
+  .prev,
+  .next {
+    top: 100px;
+    left: 33%;
+  }
+}
+
+/* *********************************** */
+/* UNTUK SMARTPHONE LARGE (640px) */
+/* *********************************** */
+@media (max-width: 640px) {
+  header ul {
+    gap: 18px;
+  }
+
+  .hero h1 {
+    font-size: 80px;
+  }
+
+  .hero p {
+    font-size: 33px;
+  }
+
+  .ninja {
+    width: 180px;
+    height: 180px;
+  }
+
+  .project-image img {
+    width: 170px;
+  }
+
+  .prev,
+  .next {
+    top: 70px;
+    left: 32.5%;
+  }
+}
+
+/* *********************************** */
+/* UNTUK SMARTPHONE SMALL (400px) */
+/* *********************************** */
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero p {
+    font-size: 22px;
+  }
+
+  .ninja {
+    width: 120px;
+    height: 120px;
+  }
+
+  .project-image {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .project-image img {
+    width: 100px;
+  }
+
+  .prev,
+  .next {
+    top: 35px;
+    left: 30.5%;
+    font-size: 14px;
+  }
+
+  .next {
+    right: -5%;
+  }
+
+  .btn-send {
+    width: 100%;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  footer {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  footer ul {
+    margin-left: 0;
+    padding-left: 0;
+    align-items: start;
+  }
+}

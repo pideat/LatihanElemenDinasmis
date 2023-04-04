@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Element Dinamis Progate</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <p class="logo">Ninja Ken</p>
+      <ul>
+        <li>Tentang Saya</li>
+        <li>Proyek Contoh</li>
+        <li>Hubungi Saya</li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <h1>Ninja Ken<span class="dot">.</span></h1>
+          <p>My portfolio</p>
+          <img src="img/Ninja Ken.png" alt="Ninja Ken photo" class="ninja" />
+        </div>
+      </section>
+
+      <section class="section-about">
+        <div class="about">
+          <h2>Tentang Saya</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quis? Fugit sapiente culpa similique veniam aut soluta? Necessitatibus error adipisci porro alias natus illum et nulla veniam mollitia amet cumque voluptate
+            temporibus quaerat unde, eum quisquam eaque nostrum laborum! Quasi, repellat. Odit, earum sunt eveniet illo sequi nam dolore. Esse maxime laboriosam suscipit in expedita perspiciatis nobis ex ab minus molestiae facere porro
+            iusto inventore ratione tenetur, atque mollitia reprehenderit labore doloremque similique repellat! Impedit omnis magni vero laudantium repellat! Atque autem dolorem vitae perferendis? Officia qui, itaque odio voluptates
+            perspiciatis tempora, saepe magnam earum doloribus aliquid quia eos. Dignissimos!
+          </p>
+        </div>
+      </section>
+
+      <section class="section-project">
+        <div class="project" id="project">
+          <h2>Proyek Contoh</h2>
+          <div class="project-image">
+            <div class="slider-item fade">
+              <a href="#project" id="openModalButton"><img src="img/1.png" alt="project 1 photo" /></a>
+              <p>Image 1</p>
+            </div>
+            <div id="myModal">
+              <div id="modalContent">
+                <span id="closeModalIcon">&times;</span>
+                <h2>Project</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit ullam exercitationem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="slider-item fade">
+              <img src="img/2.png" alt="project 2 photo" />
+              <p>Image 2</p>
+            </div>
+            <div class="slider-item fade">
+              <img src="img/3.png" alt="project 2 photo" />
+              <p>Image 3</p>
+            </div>
+            <div class="slider-item fade">
+              <img src="img/2.png" alt="project 4 photo" />
+              <p>Image 4</p>
+            </div>
+            <div class="slider-item fade">
+              <img src="img/1.png" alt="project 4 photo" />
+              <p>Image 5</p>
+            </div>
+            <div class="slider-item fade">
+              <img src="img/3.png" alt="project 4 photo" />
+              <p>Image 6</p>
+            </div>
+
+            <a class="prev" onclick="updateSlide(-1)">&#10094;</a>
+            <a class="next" onclick="updateSlide(1)">&#10095;</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-contact">
+        <div class="contact">
+          <h2>Hubungi Saya</h2>
+          <input type="text" placeholder="Email (Diperlukan)" />
+          <textarea name="message" id="message" cols="30" rows="3" placeholder="Message (Diperlukan)"></textarea>
+          <a href="#" class="btn-send">Kirim</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="logo">Ninja Ken</p>
+      <ul>
+        <li>Tentang Saya</li>
+        <li>Proyek Contoh</li>
+        <li>Hubungi Saya</li>
+      </ul>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
